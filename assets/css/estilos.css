@@ -29,7 +29,13 @@ body {
   font-weight: 700;
   color: #373a3c;
 }
-
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.redes img{
+  width: 30px;
+}
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
